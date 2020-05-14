@@ -1,7 +1,0 @@
-mysql：
-vim /etc/security/limits.d/90-nproc.conf
-删除如下这行接触centos对文件操作句柄的限制：
-*          soft    nproc     1024
-
------------------------
-
